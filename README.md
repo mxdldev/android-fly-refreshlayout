@@ -88,7 +88,7 @@ mRefreshLayout.setEnableLoadMore(b)
 小箭头样式ArrowRefreshLayout的使用方法和DaisyRefreshLayout的使用类似我就不演示了
 ### 功能演示：
 #### 小菊花样式DaisyRefreshLayout;小箭头样式DaisyRefreshLayout
-<div align="left">
+<div align="center">
 <img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/daisy.gif" width="50%">
 <img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" width="50%" style="margin-left:50px">  
 </div>
