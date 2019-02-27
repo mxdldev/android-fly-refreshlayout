@@ -84,5 +84,8 @@ mRefreshLayout.setEnableRefresh(b);
 ```
 mRefreshLayout.setEnableLoadMore(b)
 ```
+### 小箭头样式ArrowRefreshLayout的使用
+小箭头样式ArrowRefreshLayout的使用方法和DaisyRefreshLayout的使用类似我就不演示了
+### 功能演示：
 
  
