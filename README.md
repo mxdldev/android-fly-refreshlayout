@@ -55,4 +55,34 @@ FlyRefreshLayout是一个支持下拉刷新、上拉加载更多的自定义控�
                 },1000 * 3);
             }
         });
-        ```
+```
+#### 4.添加自动刷新监听器
+```
+ //自动刷新回调监听器
+ mRefreshLayout.setOnAutoLoadListener(new DaisyRefreshLayout.OnAutoLoadListener() {
+            @Override
+            public void onAutoLoad() {
+                Toast.makeText(getBaseContext(),"开始加载数据了",Toast.LENGTH_SHORT).show();
+            }
+        });
+//自动刷新调用   
+ mRefreshLayout.autoRefresh();
+ ```
+#### 4.停止刷新
+```
+mRefreshLayout.setRefreshing(false);
+```
+#### 5.停止加载更多
+```
+mRefreshLayout.setLoadMore(false);
+```
+#### 6.启用禁用下拉刷新
+```
+mRefreshLayout.setEnableRefresh(b);
+```
+#### 6.启用禁用上拉加载更多
+```
+mRefreshLayout.setEnableLoadMore(b)
+```
+
+ 
