@@ -76,11 +76,11 @@ mRefreshLayout.setRefreshing(false);
 ```
 mRefreshLayout.setLoadMore(false);
 ```
-#### 6.启用禁用下拉刷新
+#### 6.启用、禁用下拉刷新
 ```
 mRefreshLayout.setEnableRefresh(b);
 ```
-#### 6.启用禁用上拉加载更多
+#### 7.启用、禁用上拉加载更多
 ```
 mRefreshLayout.setEnableLoadMore(b)
 ```
