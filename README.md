@@ -90,5 +90,5 @@ mRefreshLayout.setEnableLoadMore(b)
 #### 小菊花样式DaisyRefreshLayout;小箭头样式DaisyRefreshLayout
 <div align="left">
 <img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/daisy.gif">
-<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" style="margin-left:50px">  
+<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" style="margin-left:100px">  
 </div>
