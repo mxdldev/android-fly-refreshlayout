@@ -89,4 +89,5 @@ mRefreshLayout.setEnableLoadMore(b)
 ### 功能演示：
 #### 小菊花样式DaisyRefreshLayout的使用
 <img src="https://img-blog.csdnimg.cn/2019022719294697.gif" width="40%"><br>
+#### 小箭头样式DaisyRefreshLayout的使用
 <img src="https://img-blog.csdnimg.cn/20190227193531339.gif" width="40%">
