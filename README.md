@@ -1,5 +1,5 @@
 # FlyRefreshLayout
-FlyRefreshLayout是一个支持下拉刷新、上拉加载更多的自定义控件，支持RecyclerView，NestedScrollView，ScrollView 、ListView，GridView，能自定义HeadView和fooFooterView，基于SuperSwipeRefreshLayout开发，不但支持最基本的下拉刷新、上拉加载更多，还在其基础上扩展了是否启用下拉刷新、是否启用上拉加载更多、自动刷新，停止刷新、停止加载更多等功能，并对其下拉刷新监听器、上拉加载更多监听器进行了优化，使其调用更加的方便
+FlyRefreshLayout是一个支持下拉刷新、上拉加载更多的自定义控件，支持RecyclerView，NestedScrollView，ScrollView 、ListView，GridView，能自定义HeadView和FooterView，基于SuperSwipeRefreshLayout的二次开发，不但支持最基本的下拉刷新、上拉加载更多，还在其基础上扩展了是否启用下拉刷新、是否启用上拉加载更多、增加了自动刷新功能，优化了下拉刷新监听器、上拉加载更多监听器，增加了通用小菊花样式DaisyRefreshLayout和通用小箭头样式ArrowRefreshLayout使其调用更加的方便
 ### 主要功能
 
 * 支持最基本的下拉刷新、上拉加载更多
@@ -92,3 +92,31 @@ mRefreshLayout.setEnableLoadMore(b)
 <img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/daisy.gif">
 <img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" style="margin-left:100px">  
 </div>
+### 问题反馈
+在使用中有任何问题，请在下方留言，或加入Android、Java开发技术交流群
+QQ群：810970432
+email：geduo_83@163.com
+![](https://img-blog.csdnimg.cn/20190126213618911.png)
+### 关于作者
+```
+var geduo_83 = {
+    nickName  : "门心叼龙",
+    site : "http://www.weibo.com/geduo83"
+}
+```
+### License
+```
+Copyright (C)  menxindiaolong, FlyCloud Framework Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
