@@ -8,7 +8,7 @@ FlyRefreshLayout刷新组件基于SuperSwipeRefreshLayout进行二次开发，�
 * 支持启用、进攻上拉加载更多
 * 通用小菊花样式DaisyRefreshLayout
 * 通用小箭头样式ArrowRefreshLayout
-### 类型关系图
+### 类关系图
 * 基本类图
 ![](https://img-blog.csdnimg.cn/20190228103457115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
 * FootView关系图<br>
