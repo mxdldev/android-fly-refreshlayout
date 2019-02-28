@@ -1,7 +1,6 @@
 # FlyRefreshLayout
-FlyRefreshLayout是一个支持下拉刷新、上拉加载更多的自定义控件，支持RecyclerView，NestedScrollView，ScrollView 、ListView，GridView，能自定义HeadView和FooterView，基于SuperSwipeRefreshLayout的二次开发，不但支持最基本的下拉刷新、上拉加载更多，还在其基础上扩展了是否启用下拉刷新、是否启用上拉加载更多、增加了自动刷新功能，优化了下拉刷新监听器、上拉加载更多监听器，增加了通用小菊花样式DaisyRefreshLayout和通用小箭头样式ArrowRefreshLayout使其调用更加的方便
+FlyRefreshLayout刷新组件基于SuperSwipeRefreshLayout进行二次开发，增加了通用小菊花样式DaisyRefreshLayout刷新控件和通用小箭头样式ArrowRefreshLayout刷新控件，支持RecyclerView，NestedScrollView，ScrollView 、ListView，GridView，能自定义HeadView和FooterView，不但支持最基本的下拉刷新、上拉加载更多，还在其基础上扩展了是否启用下拉刷新、是否启用上拉加载更多、增加了自动刷新功能，优化了下拉刷新监听器、上拉加载更多监听器，增加了自动刷新监听器，使其调用更加的方便
 ### 主要功能
-
 * 支持最基本的下拉刷新、上拉加载更多
 * 支持自定义HeadView和FootView
 * 支持自动刷新
@@ -9,6 +8,13 @@ FlyRefreshLayout是一个支持下拉刷新、上拉加载更多的自定义控�
 * 支持启用、进攻上拉加载更多
 * 通用小菊花样式DaisyRefreshLayout
 * 通用小箭头样式ArrowRefreshLayout
+### 类型关系图
+* 基本类图
+![](https://img-blog.csdnimg.cn/20190228103457115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
+* FootView关系图
+![](https://img-blog.csdnimg.cn/20190228103614680.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
+* HeadView关系图
+![](https://img-blog.csdnimg.cn/20190228103714141.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
 ### 小菊花样式DaisyRefreshLayout使用步骤:
 #### 1.创建布局文件
 ```
