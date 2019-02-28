@@ -11,9 +11,9 @@ FlyRefreshLayout刷新组件基于SuperSwipeRefreshLayout进行二次开发，�
 ### 类型关系图
 * 基本类图
 ![](https://img-blog.csdnimg.cn/20190228103457115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
-* FootView关系图
+* FootView关系图<br>
 ![](https://img-blog.csdnimg.cn/20190228103614680.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
-* HeadView关系图
+* HeadView关系图<br>
 ![](https://img-blog.csdnimg.cn/20190228103714141.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
 ### 小菊花样式DaisyRefreshLayout使用步骤:
 #### 1.创建布局文件
