@@ -1,0 +1,13 @@
+@startuml
+interface HeadContract{
+    void onHeadEnable(boolean enable);
+    void onRefresh();
+}
+
+HeadContract <|.. DaisyHeaderView
+HeadContract <|.. ArrowHeaderView
+
+note top of HeadContract:下拉刷新协议
+note left of DaisyHeaderView:小菊花头部view
+note right of ArrowHeaderView:小箭头头部view
+@enduml

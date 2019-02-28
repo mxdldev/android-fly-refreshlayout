@@ -1,0 +1,28 @@
+@startuml
+class SuperSwipeRefreshLayout
+class BaseRefreshLayout{
+    OnRefreshListener mOnRefreshListener;
+    OnLoadMoreListener mOnLoadMoreListener;
+    OnAutoLoadListener mOnAutoLoadListener;
+}
+class DaisyRefreshLayout
+class ArrowRefreshLayout
+class DaisyFooterView
+class DaisyHeaderView
+class ArrowHeaderView
+class ArrowFooterView
+
+note top of SuperSwipeRefreshLayout:原始工程基类
+note right of DaisyRefreshLayout:扩展小菊花样式的刷新控件
+note left of ArrowRefreshLayout:扩展小箭头样式的刷新控件
+
+SuperSwipeRefreshLayout <|-- BaseRefreshLayout
+BaseRefreshLayout <|--  DaisyRefreshLayout
+BaseRefreshLayout <|--  ArrowRefreshLayout
+
+DaisyHeaderView <--* DaisyRefreshLayout
+DaisyFooterView <--* DaisyRefreshLayout
+
+ArrowHeaderView <--* ArrowRefreshLayout
+ArrowFooterView <--* ArrowRefreshLayout
+@enduml

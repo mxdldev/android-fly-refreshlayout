@@ -11,7 +11,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.fly.refresh.contract.PushContract;
+import com.fly.refresh.contract.FootContract;
 
 
 /**
@@ -22,7 +22,7 @@ import com.fly.refresh.contract.PushContract;
  * Update: <br>
  */
 
-public class ArrowFooterView extends RelativeLayout implements PushContract {
+public class ArrowFooterView extends RelativeLayout implements FootContract {
     private ProgressBar footerProgressBar;
     private TextView footerTextView;
     private ImageView footerImageView;

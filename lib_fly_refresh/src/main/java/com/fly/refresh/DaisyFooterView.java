@@ -11,7 +11,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.fly.refresh.contract.PushContract;
+import com.fly.refresh.contract.FootContract;
 
 /**
  * Description: <DaisyHeaderView><br>
@@ -20,7 +20,7 @@ import com.fly.refresh.contract.PushContract;
  * Version: V1.0.0<br>
  * Update: <br>
  */
-public class DaisyFooterView extends RelativeLayout implements PushContract {
+public class DaisyFooterView extends RelativeLayout implements FootContract {
 
   private TextView mTxtLoading;
   private ImageView mImgDaisy;

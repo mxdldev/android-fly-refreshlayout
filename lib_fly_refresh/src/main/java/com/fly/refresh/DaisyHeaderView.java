@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.fly.refresh.contract.PullContract;
+import com.fly.refresh.contract.HeadContract;
 
 /**
  * Description: <DaisyHeaderView><br>
@@ -22,7 +22,7 @@ import com.fly.refresh.contract.PullContract;
  * Version: V1.0.0<br>
  * Update: <br>
  */
-public class DaisyHeaderView extends RelativeLayout implements PullContract {
+public class DaisyHeaderView extends RelativeLayout implements HeadContract {
 
   private TextView mTxtLoading;
   private ImageView mImgDaisy;

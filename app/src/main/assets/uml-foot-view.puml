@@ -1,0 +1,12 @@
+@startuml
+interface FootContract{
+    void onFootEnable(boolean enable);
+    void onLoadMore();
+}
+
+FootContract <|.. DaisyFooterView
+FootContract <|.. ArrowFooterView
+note top of FootContract:上拉加载更多协议
+note left of DaisyFooterView:小菊花尾部view
+note right of ArrowFooterView:小箭头尾部view
+@enduml
