@@ -8,6 +8,12 @@ FlyRefreshLayout刷新组件基于SuperSwipeRefreshLayout进行二次开发，�
 * 支持启用、进攻上拉加载更多
 * 通用小菊花样式DaisyRefreshLayout
 * 通用小箭头样式ArrowRefreshLayout
+### 功能演示：
+#### 小菊花样式DaisyRefreshLayout;小箭头样式DaisyRefreshLayout
+<div align="left">
+<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/daisy.gif">
+<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" style="margin-left:100px">  
+</div>
 ### 类关系图
 * 基本类图
 ![](https://img-blog.csdnimg.cn/20190228103457115.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dlZHVvXzgz,size_16,color_FFFFFF,t_70)
@@ -92,12 +98,6 @@ mRefreshLayout.setEnableLoadMore(b)
 ```
 ### 小箭头样式ArrowRefreshLayout的使用
 小箭头样式ArrowRefreshLayout的使用方法和DaisyRefreshLayout的使用类似我就不演示了
-### 功能演示：
-#### 小菊花样式DaisyRefreshLayout;小箭头样式DaisyRefreshLayout
-<div align="left">
-<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/daisy.gif">
-<img src="https://github.com/geduo83/FlyRefreshLayout/blob/master/app/src/main/assets/arrow.gif" style="margin-left:100px">  
-</div>
 
 ### 问题反馈
 在使用中有任何问题，请在下方留言，或加入Android、Java开发技术交流群<br>
