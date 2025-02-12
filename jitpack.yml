@@ -1,0 +1,5 @@
+jdk:
+  - openjdk8
+
+build:
+  - ./gradlew clean uploadArchives -Pgroup=com.github.mxdldev -Pversion=1.0.2.2 -xtest -xlint
