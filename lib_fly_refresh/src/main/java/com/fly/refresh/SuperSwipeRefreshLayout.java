@@ -820,6 +820,12 @@ public class SuperSwipeRefreshLayout extends ViewGroup {
                 }
                 final int pointerIndex = MotionEventCompat.findPointerIndex(ev,
                         mActivePointerId);
+                // 添加对pointerIndex的有效性检查
+                if (pointerIndex < 0 || pointerIndex >= ev.getPointerCount()) {
+                    // 如果索引无效，可以考虑重置mActivePointerId或者采取其他措施
+                    mActivePointerId = INVALID_POINTER;
+                    return false;
+                }
                 final float y = MotionEventCompat.getY(ev, pointerIndex);
                 final float overscrollTop = (y - mInitialMotionY) * DRAG_RATE;
                 mIsBeingDragged = false;
