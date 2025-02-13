@@ -5,7 +5,7 @@ FlyRefreshLayout刷新组件基于SuperSwipeRefreshLayout进行二次开发，�
 * 支持自定义HeadView和FootView
 * 支持自动刷新
 * 支持启用、禁用下拉刷新
-* 支持启用、进攻上拉加载更多
+* 支持启用、进攻上拉加载更多  
 * 通用小菊花样式DaisyRefreshLayout
 * 通用小箭头样式ArrowRefreshLayout
 ### 功能演示：
